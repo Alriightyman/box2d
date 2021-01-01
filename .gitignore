@@ -5,3 +5,12 @@ settings.ini
 CMakeSettings.json
 out/
 .vs/
+
+# ignore sln and vcxproj
+*.sln
+*.vcxproj
+*.filters
+
+# ignore custom build directory
+obj/
+bin/
